@@ -49,27 +49,33 @@ Static Route:
 
 Create a page at `/faq` that displays a list of FAQ items.
 Each FAQ item should consist of a question and an answer.
+
 Simulated FAQ Data:
 
 Use a local array of objects to simulate the FAQ data.
 Each FAQ object should have a question and an answer.
+
 Search Functionality:
 
 Implement a search bar at the top of the page that filters the FAQ items based on the text input.
 The search should be case-insensitive and should match the search term against the questions.
+
 Accordion Functionality:
 
 Each FAQ question should be clickable to toggle the visibility of the answer.
 When a question is clicked, the corresponding answer should expand below it.
 If the question is clicked again, the answer should collapse.
+
 Responsive Design:
 
 The page should be fully responsive and look good on both desktop and mobile devices.
 Use Tailwind CSS for all styling.
+
 Bonus Challenges
 
 Expand/Collapse All: Add buttons to expand or collapse all FAQ items at once.
 Persist Search State: Save the user's search query in the URL so that it persists across page reloads.
+
 Example Submission
 
 Your submission should be a single .js file containing:
